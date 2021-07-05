@@ -5,9 +5,13 @@
 }
 
 @font-face{
-	font-family: The Historia Demo;
-	src: url("../fonts/TheHistoriaDemo.ttf");
+	font-family: HelloPirates;
+	src: url("../fonts/HelloPirates.otf");
+}
 
+@font-face{
+	font-family: The Historia Demo;
+	src: url("../fonts/TheHistoriaDemo.ttf");	
 }
 html{
 	font-size: 10px;
@@ -18,7 +22,7 @@ html{
 body{
 	width: 100%;
 	height: 100%;
-	background: url("images/sitebg.jpg") no-repeat center fixed;
+	background: url("images/sitebg11.png") no-repeat center fixed;
 	background-size: cover;
 	/*background-color: cornsilk;*/
 }
@@ -85,7 +89,7 @@ header{
 	top: -100vh;
 	/*test z */
 	z-index: 50;
-	background-color: #16162d;
+	background-color: #131212;
 	border-bottom-right-radius: 100%;
 	border-bottom-left-radius: 100%;
 	transition: all 650ms cubic-bezier(1,0,0,1);
@@ -112,7 +116,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-	background: linear-gradient(to top, #ffe838, #fd57bf);
+	background: linear-gradient(to top, #ffffff,  #9cd8f9);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -142,7 +146,7 @@ li{
 }
 
 .bar{
-	background: linear-gradient(to right, #ffe838, #fd57bf);
+	background: linear-gradient(to right, #ffffff, #a1d6ff);
 	width: 100%;
 	height: 4px;
 	border-radius: .8rem;
@@ -188,8 +192,8 @@ li{
 
 .landing-text h1{
 	font-size: 20rem;
-	font-family: The Historia Demo, Courier New;
-	background: linear-gradient(to top, #ffe838, #fd57bf);
+	font-family: HelloPirates, Courier New;
+	background: linear-gradient(to top, #ffffff, #9cd8f9);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	user-select: none;
@@ -222,7 +226,7 @@ li{
 
 .about-heading h6{
 	font-size: 2rem;
-	font-weight: 300;		
+	font-weight: 300;
 }
 
 .profile-img{
@@ -242,14 +246,19 @@ li{
 .social-media i{
 	font-size: 5rem;
 	transition: color 600ms;
+	margin: 1rem;
 }
 
-.fab.fa-git-square:hover{
+/*.fab.fa-git-square:hover{
 	color:rgb(228, 205, 255);
 }
 
 .fab.fa-linkedin:hover{
 	color:rgb(228, 205, 255);
+}*/
+
+.icon-link:hover{
+	color:#a1d6ff;
 }
 /*------------START Portfolio-------------------------*/
 
@@ -308,7 +317,7 @@ li{
 
 /*------------START Timeline-------------------------*/
 .timeline ul{
-	border-left: 4px solid #ffe838;
+	border-left: 4px solid #b1bece;
 	border-radius: .8rem;
 	background-color: rgba(0,0,0,0.07);
 	margin: 0 auto;
@@ -355,11 +364,12 @@ li{
 	text-align: left;
 	min-width: 10rem;
 	font-size: 1.2rem;
+	color:rgba(250, 250, 250, 0.516);
 }
 
 .timeline .date::after{
 	content: '';
-	box-shadow: 0 0 0 3px #fd57bf;
+	box-shadow: 0 0 0 3px #ffffff;
 	border-radius: 100%;
 	left: -5.5rem;
 	height: .5rem;
@@ -380,7 +390,7 @@ li{
 .bottom{
 	width: 100%;
 	text-align: center;
-	background-color: #161626;
+	background-color: #000000;
 	padding: 2rem 0;
 	position: relative;
 }
@@ -410,13 +420,13 @@ li{
 /*------------START Animation-------------------------*/
 @keyframes pulse{
 	0%{
-		box-shadow: 0 0 0 0 rgba(255, 87, 191, 0.99);
+		box-shadow: 0 0 0 0 rgba(200, 228, 245, 0.99);
 	}
 	70%{
 		box-shadow: 0 0 0 2rem rgba(255, 87, 191, 0);
 	}
 	100%{
-		box-shadow: 0 0 0 0 rgba(255, 87, 191, 0.99);
+		box-shadow: 0 0 0 0 rgba(200, 228, 245, 0.99);
 	}
 }
 
@@ -425,7 +435,7 @@ li{
 /*------------START Media Animations-------------------------*/
 @media screen and (max-width: 768px){
 	body{
-		background: url("images/sitebg2.jpg") no-repeat center fixed;
+		background: url("images/sitebg12.png") no-repeat center fixed;
 		background-size: cover;
 	}
 
