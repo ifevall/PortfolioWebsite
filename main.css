@@ -6,12 +6,12 @@
 
 @font-face{
 	font-family: HelloPirates;
-	src: url("../fonts/HelloPirates.otf");
+	src: url("/fonts/HelloPirates.otf");
 }
 
 @font-face{
 	font-family: The Historia Demo;
-	src: url("../fonts/TheHistoriaDemo.ttf");	
+	src: url("/fonts/TheHistoriaDemo.ttf");	
 }
 html{
 	font-size: 10px;
