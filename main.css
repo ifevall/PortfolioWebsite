@@ -301,6 +301,10 @@ li{
 	opacity: 0.3;
 }
 
+.portfolio-description p{
+	margin-top: 1rem;
+}
+
 .portfolio-description .cta{
 	display: inline-block;
 	margin-top: 2.5rem;
