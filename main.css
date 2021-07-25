@@ -260,6 +260,50 @@ li{
 .icon-link:hover{
 	color:#a1d6ff;
 }
+
+ /*------------START Skills-------------------------*/
+ 
+.skills .container{
+	background-color: #43434345;
+	border-radius: .8rem;
+	max-width: 500px;
+	margin: 1rem auto;
+}
+
+.skills .section-heading{
+	background-color: #090909;
+	border-radius: .8rem .8rem 0rem 0rem
+
+}
+
+.skills-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.skills-content img{
+	width: 32px;
+	height: 32px;
+	/*background-position: center;*/
+}
+
+/*.skills-content p{
+	display:inline-flexbox;
+	align-items: center;
+}*/
+
+.skills-item{
+	margin: 1.5rem;
+}
+
+.skills-item p{
+	color: #b1beceb7;
+}
+
+/*------------END Skills-------------------------*/
+
 /*------------START Portfolio-------------------------*/
 
 /*.portfolio-item img{
@@ -495,6 +539,11 @@ li{
 }
 
 @media screen and (max-width: 600px){
+	body{
+		background: url("images/sitebg600(2).png") no-repeat center fixed;
+		background-size: cover;
+	}
+
 	.menu-toggler{
 		top: 2rem;
 		right: 2rem;
